@@ -4,6 +4,12 @@
 
 # Safe Code
 
+> **本 fork 的可选修订：** [轻量远程官方 Claude Code](deploy/remote-cli/README.md)。
+> 适用于已有业务的 Ubuntu VPS，增加独立普通用户、回环 HTTP CONNECT → SOCKS5、
+> 按用户限制的 IPv4/IPv6 出站和分账号配置目录。它不安装第二套桌面，不改宿主时区，
+> 不提供 Sub2API/Anthropic Messages 反代，也不承诺“防封”。原 Windows 客户端尚未
+> 集成此可选部署入口；下面保留上游说明。使用须符合服务商的账号、地区及用途要求。
+
 [下载 Beta 测试版](https://github.com/Muchuaner/safe-code/releases/tag/Beta-0.4.3.2) · Windows 10 / 11 x64
 
 面向海外中文用户的开源 VPS 开发环境配置工具。当前 Beta 测试版已包含 Windows 原生宿主、真实 SSH 部署、维护操作与进阶选项；当前发布为 **Beta-0.4.3.2 测试版**。软件面向海外中文用户，中国大陆禁止使用。

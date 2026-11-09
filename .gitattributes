@@ -1,0 +1,3 @@
+deploy/remote-cli/*.py text eol=lf
+deploy/remote-cli/*.sh text eol=lf
+deploy/remote-cli/*.md text eol=lf

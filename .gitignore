@@ -14,3 +14,7 @@ dist/
 
 __pycache__/
 *.pyc
+# Local deployment credentials and authorization material must never be committed.
+deploy/remote-cli/private/
+deploy/remote-cli/*config.json
+deploy/remote-cli/*.key
